@@ -1,0 +1,29 @@
+.gitignore
+  477f9987e5ae675f 8-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.7",
+  "base_commit_sha": "693fecdf35e07a473047d40017a73d55be13d460",
+  "prompts": {
+    "477f9987e5ae675f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1c1fe75e8ffe1W0G9LvhsyzzSC",
+        "model": "openai/gpt-5.4"
+      },
+      "human_author": "fengwk",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        ".gitignore": {
+          "additions": 3,
+          "accepted_lines": 3
+        }
+      }
+    }
+  }
+}
