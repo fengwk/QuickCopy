@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "QuickCopy (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "QuickCopy (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

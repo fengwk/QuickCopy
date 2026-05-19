@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Template / local agent docs
+.github/
+
+# Build outputs
+**/bin/
+**/obj/
+**/AppPackages/
+
+# Packaging / signing artifacts
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.appxsym
+*.cer
+*.pfx
+
+# Logs / backups
+Backup/
+UpgradeLog.htm
+
+# Misc caches
+*.cache
+*.tmp
