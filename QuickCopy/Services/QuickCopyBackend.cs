@@ -10,6 +10,10 @@ namespace QuickCopy.Services;
 
 internal sealed class QuickCopyBackend
 {
+    private static readonly UTF8Encoding Utf8WithoutBom = new(false);
+
+    private static readonly UnicodeEncoding Utf16LeWithoutBom = new(false, false);
+
     private readonly QuickCopySettings _settings = new();
     private bool? _legacyScriptExists;
 
@@ -159,7 +163,7 @@ internal sealed class QuickCopyBackend
             UseShellExecute = false,
             RedirectStandardInput = true,
             RedirectStandardError = true,
-            StandardInputEncoding = Encoding.Unicode,
+            StandardInputEncoding = Utf16LeWithoutBom,
             StandardErrorEncoding = Encoding.UTF8,
             CreateNoWindow = true,
         };
@@ -200,7 +204,7 @@ internal sealed class QuickCopyBackend
             UseShellExecute = false,
             RedirectStandardInput = true,
             RedirectStandardError = true,
-            StandardInputEncoding = Encoding.UTF8,
+            StandardInputEncoding = Utf8WithoutBom,
             StandardErrorEncoding = Encoding.UTF8,
             CreateNoWindow = true,
         };
