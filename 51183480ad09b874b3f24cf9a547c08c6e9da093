@@ -1,0 +1,30 @@
+QuickCopy/Services/QuickCopyBackend.cs
+  477f9987e5ae675f 13-16,166,207
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.7",
+  "base_commit_sha": "51183480ad09b874b3f24cf9a547c08c6e9da093",
+  "prompts": {
+    "477f9987e5ae675f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1c1fe75e8ffe1W0G9LvhsyzzSC",
+        "model": "openai/gpt-5.4"
+      },
+      "human_author": "fengwk",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 2,
+      "accepted_lines": 6,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "QuickCopy/Services/QuickCopyBackend.cs": {
+          "additions": 6,
+          "deletions": 2,
+          "accepted_lines": 6
+        }
+      }
+    }
+  }
+}
